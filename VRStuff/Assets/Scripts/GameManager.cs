@@ -30,6 +30,6 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        timerText.text = $"{minutes} : {seconds}";
+        timerText.text = minutes + " : " + string.Format("{0:D2}", seconds);
     }
 }
