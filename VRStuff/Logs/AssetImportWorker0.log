@@ -15,12 +15,12 @@ C:/Users/Gage Somerville/Desktop/VRGame/VRStuff
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54891
+58170
 Successfully changed project path to: C:/Users/Gage Somerville/Desktop/VRGame/VRStuff
 C:/Users/Gage Somerville/Desktop/VRGame/VRStuff
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.79 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 1.75 ms.
+Refreshing native plugins compatible for Editor in 216.41 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 4.06 ms.
 Initialize engine version: 2020.3.13f1 (71691879b7f5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Gage Somerville/Desktop/VRGame/VRStuff/Assets
@@ -36,43 +36,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001720 seconds.
+Registered in 0.007424 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 66.73 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.13 ms.
+Refreshing native plugins compatible for Editor in 195.18 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.515 seconds
+- Completed reload, in  4.373 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007958 seconds.
+Registered in 0.017566 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.20 ms.
+Refreshing native plugins compatible for Editor in 2.02 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.61.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.063 seconds
+- Completed reload, in  2.766 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.19 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.44 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 2.17 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
 Unloading 2415 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 110.0 MB.
 System memory in use after: 110.2 MB.
 
 Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 2829.
-Total: 3.012800 ms (FindLiveObjects: 0.407900 ms CreateObjectMapping: 0.192800 ms MarkObjects: 2.232200 ms  DeleteObjects: 0.178900 ms)
+Total: 5.442500 ms (FindLiveObjects: 0.470900 ms CreateObjectMapping: 0.233900 ms MarkObjects: 4.534800 ms  DeleteObjects: 0.200600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -86,200 +86,632 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl3.prefab
-  artifactKey: Guid(01d8db7f314b2504284646720569ebee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl3.prefab using Guid(01d8db7f314b2504284646720569ebee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58be62f6f15380657813306d1ce36af3') in 0.183026 seconds 
-  Import took 0.187052 seconds .
+  path: Assets/Externals/simple_low_poly_village_buildings/models/hay1.prefab
+  artifactKey: Guid(2f7a0b013393a184a99c366b78663a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/hay1.prefab using Guid(2f7a0b013393a184a99c366b78663a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d8815f8e617b67f19f197bd1f5b5029') in 0.217166 seconds 
+  Import took 0.226988 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl4.prefab
-  artifactKey: Guid(1f434b7092c98b9498412a8ed230d22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl4.prefab using Guid(1f434b7092c98b9498412a8ed230d22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec0f95cba4e51c23f262e96beb8769c1') in 0.016117 seconds 
-  Import took 0.019622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/bucket.prefab
-  artifactKey: Guid(fc6bfcb27fe9f8a418aaa5f607cc7d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/bucket.prefab using Guid(fc6bfcb27fe9f8a418aaa5f607cc7d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5588bc2b8bf16484f09184932beb711f') in 0.013366 seconds 
-  Import took 0.016467 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl5.prefab
-  artifactKey: Guid(85725236ec9751e4b95ca6e9b1a46845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl5.prefab using Guid(85725236ec9751e4b95ca6e9b1a46845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc845b2d17034161f2a92247475229b') in 0.013822 seconds 
-  Import took 0.017271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl2.prefab
-  artifactKey: Guid(65ead04d94056194d871a15a66397d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl2.prefab using Guid(65ead04d94056194d871a15a66397d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0680cd8943fb9cc9c8f8df7efc1756c') in 0.012428 seconds 
-  Import took 0.015630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/crate.prefab
-  artifactKey: Guid(3f75115cad4290d40a5eb8d65a599852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/crate.prefab using Guid(3f75115cad4290d40a5eb8d65a599852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03ef9e55c50f48168b11ede715eccf0') in 0.010671 seconds 
-  Import took 0.013962 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/barrel.prefab
-  artifactKey: Guid(e2d6d518bfc4a1945bf868a29c71b73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/barrel.prefab using Guid(e2d6d518bfc4a1945bf868a29c71b73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604dd38c0b20811ea7aff0d69b11fda1') in 0.010175 seconds 
-  Import took 0.013427 seconds .
+  Time since last request: 0.000499 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl6.prefab
+  artifactKey: Guid(4e57f9310f885d9478aa886635d90188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl6.prefab using Guid(4e57f9310f885d9478aa886635d90188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ec49dabc78cc421b63fa5dc645a781') in 0.029305 seconds 
+  Import took 0.037530 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000307 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models
-  artifactKey: Guid(2e6a53aa20b7de6409d46b7cf3d73434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models using Guid(2e6a53aa20b7de6409d46b7cf3d73434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2caf831a80cbb3b84c2c8499e66298') in 0.005887 seconds 
-  Import took 0.009176 seconds .
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl7.prefab
+  artifactKey: Guid(e3fdc4200313b5e43973175595f50a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl7.prefab using Guid(e3fdc4200313b5e43973175595f50a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1229604f806e5af02f865a7d261c404b') in 0.027710 seconds 
+  Import took 0.034777 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl6.prefab
-  artifactKey: Guid(0da62b6fef79e294cb9e1a6a8ea69cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl6.prefab using Guid(0da62b6fef79e294cb9e1a6a8ea69cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b330fe86749824c99f51d1821a94eb7') in 0.011320 seconds 
-  Import took 0.014673 seconds .
+  Time since last request: 0.000394 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl5.prefab
+  artifactKey: Guid(6f3e0814d7f66ff44a590734f01c6068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl5.prefab using Guid(6f3e0814d7f66ff44a590734f01c6068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9c6cba997c0be44fcba7008369fca8') in 0.026758 seconds 
+  Import took 0.033410 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/carrot2.prefab
-  artifactKey: Guid(331d71b41546cac4882040d57f3dd3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/carrot2.prefab using Guid(331d71b41546cac4882040d57f3dd3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bea28d49a38f10d67e6168e1a3ea573') in 0.010379 seconds 
-  Import took 0.013513 seconds .
+  Time since last request: 0.000476 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl4.prefab
+  artifactKey: Guid(37e529ea4624e3b46a8e325e0288c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl4.prefab using Guid(37e529ea4624e3b46a8e325e0288c883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20659c4dfc1d9848e24d34fb54bac447') in 0.025935 seconds 
+  Import took 0.033828 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl1.prefab
-  artifactKey: Guid(21d42ff46295d4a4da6da6d0d1b33631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl1.prefab using Guid(21d42ff46295d4a4da6da6d0d1b33631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f27d68fc2ff9059eff2dc9db22474ae') in 0.012020 seconds 
-  Import took 0.015282 seconds .
+  Time since last request: 0.000399 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl3.prefab
+  artifactKey: Guid(9836dcd00a6903040804e82bf876375f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl3.prefab using Guid(9836dcd00a6903040804e82bf876375f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebd9df65247765899f48fbd2b3243f5a') in 0.023058 seconds 
+  Import took 0.030239 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/carrot1.prefab
-  artifactKey: Guid(4bf49eda5e7f0bc4fa63c52b937a633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/carrot1.prefab using Guid(4bf49eda5e7f0bc4fa63c52b937a633a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4904cd2778b7e5cce1b28d81d33f5eda') in 0.010199 seconds 
-  Import took 0.013421 seconds .
+  Time since last request: 0.000334 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl1.prefab
+  artifactKey: Guid(5a0564be916f44248bc20e6c25a796ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl1.prefab using Guid(5a0564be916f44248bc20e6c25a796ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6642af70cc48c52669a7258dac911f41') in 0.014086 seconds 
+  Import took 0.018904 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.188014 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl7.prefab
-  artifactKey: Guid(2c121b1857a760c4f9ef7b0e4b09864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_house_lvl7.prefab using Guid(2c121b1857a760c4f9ef7b0e4b09864c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d510dd428b1c914e7296e1aff9c51f') in 0.012129 seconds 
-  Import took 0.016752 seconds .
+  Time since last request: 0.000324 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl3.prefab
+  artifactKey: Guid(4be703f0d1af24046be6c443f26fdb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl3.prefab using Guid(4be703f0d1af24046be6c443f26fdb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e0f7585ca893524572d15069f603b1') in 0.015004 seconds 
+  Import took 0.019601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl4.prefab
+  artifactKey: Guid(7908cc4dfd2040a49bdf1a7b45bcf55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl4.prefab using Guid(7908cc4dfd2040a49bdf1a7b45bcf55c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3934991906e25b1520213d65e2c920e5') in 0.014900 seconds 
+  Import took 0.019384 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/hay2.prefab
+  artifactKey: Guid(fa355f161332a5a46aec6a7bca29b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/hay2.prefab using Guid(fa355f161332a5a46aec6a7bca29b4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7518e6a4d29eca356c111518165534') in 0.013827 seconds 
+  Import took 0.017633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl2.prefab
+  artifactKey: Guid(ac0b22805df58234496f0937058a3812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl2.prefab using Guid(ac0b22805df58234496f0937058a3812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb0ccba61bc5c75bbfe0fa87ae8b8d4') in 0.015595 seconds 
+  Import took 0.019202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl2.prefab
+  artifactKey: Guid(afa55699f228cf2438920a8d9af4cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl2.prefab using Guid(afa55699f228cf2438920a8d9af4cd6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba4d2d6b6ec18672e0f365f2eb9b947') in 0.016708 seconds 
+  Import took 0.020599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/grass2.prefab
+  artifactKey: Guid(9d5edf715a453f9499936596a54aa7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/grass2.prefab using Guid(9d5edf715a453f9499936596a54aa7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2ba27bfe610dbc755b0566ad969d8c') in 0.013689 seconds 
+  Import took 0.017377 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000287 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl1.prefab
-  artifactKey: Guid(8f99e841dd173bf418e8d3d841ec7686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl1.prefab using Guid(8f99e841dd173bf418e8d3d841ec7686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a9765bbaefe9b7608d546f7e7bf562') in 0.012985 seconds 
-  Import took 0.016458 seconds .
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl5.prefab
+  artifactKey: Guid(7055499f8c77b754eaa7ce40756b567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl5.prefab using Guid(7055499f8c77b754eaa7ce40756b567d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba0015d2304ca4e305476a2ed5bb33') in 0.017226 seconds 
+  Import took 0.020748 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.252363 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl2.prefab
-  artifactKey: Guid(2f730ac7abafbbb4a87d4d03cbe47846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl2.prefab using Guid(2f730ac7abafbbb4a87d4d03cbe47846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231e2cdcfbffaae740e8d73e26e12293') in 0.015418 seconds 
-  Import took 0.019732 seconds .
+  Time since last request: 0.000301 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/shovel.prefab
+  artifactKey: Guid(ac0271417e7765040b946740e0129ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/shovel.prefab using Guid(ac0271417e7765040b946740e0129ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44c7da6b062edaa17afce78157a2232') in 0.013404 seconds 
+  Import took 0.017581 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl3.prefab
-  artifactKey: Guid(39602244c4b0f5849bdf3b872af2d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl3.prefab using Guid(39602244c4b0f5849bdf3b872af2d4a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfac53c943440aa6d06a9cd717a0b87f') in 0.013538 seconds 
-  Import took 0.017142 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/rock1.prefab
+  artifactKey: Guid(edefab1388e20cf4ba93862e3fdf266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/rock1.prefab using Guid(edefab1388e20cf4ba93862e3fdf266d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d60ffbbec8963591d5ffd3db022cbc2') in 0.013362 seconds 
+  Import took 0.017464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.046889 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl4.prefab
-  artifactKey: Guid(f25d70485ba2a1f43aba11baac1b4d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl4.prefab using Guid(f25d70485ba2a1f43aba11baac1b4d3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4df229bc1f4c3730dbe9184641c6acb') in 0.010683 seconds 
-  Import took 0.014680 seconds .
+  Time since last request: 0.000416 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl7.prefab
+  artifactKey: Guid(dd3aacc720f19b24eb93f961bb9b5057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl7.prefab using Guid(dd3aacc720f19b24eb93f961bb9b5057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d03d507f184d7ed8a97826718af7a3c') in 0.022848 seconds 
+  Import took 0.028940 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl5.prefab
-  artifactKey: Guid(5526a7870160e19499d29687ae4fb17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl5.prefab using Guid(5526a7870160e19499d29687ae4fb17a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27677817ab8e3fa3292a62735f8a7cdf') in 0.013056 seconds 
-  Import took 0.016480 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tomato2.prefab
+  artifactKey: Guid(6fd64ca8439abd14d91ad354ea33d426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tomato2.prefab using Guid(6fd64ca8439abd14d91ad354ea33d426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '723c783653dd501da10dfae0b4e50d9f') in 0.015601 seconds 
+  Import took 0.021646 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.118533 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl6.prefab
-  artifactKey: Guid(70a1d25cf2c8f554a8834daff6ea3aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl6.prefab using Guid(70a1d25cf2c8f554a8834daff6ea3aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e969e8fcf1cc9dffc3cb6f1f23c0f2af') in 0.009720 seconds 
-  Import took 0.013058 seconds .
+  Time since last request: 0.000260 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/house_lvl1.prefab
+  artifactKey: Guid(122b0584add6e9641b3a798f66fa32a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/house_lvl1.prefab using Guid(122b0584add6e9641b3a798f66fa32a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b6c70bc10502c05b82587b909f54e1') in 0.016086 seconds 
+  Import took 0.020851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/rock2.prefab
+  artifactKey: Guid(e4430ef488b0c654c93c3e7102ddd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/rock2.prefab using Guid(e4430ef488b0c654c93c3e7102ddd17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ed750aa16d7f0831dcde20a2cb9ea0') in 0.017642 seconds 
+  Import took 0.022831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tomato1.prefab
+  artifactKey: Guid(54fd9a4c732e5e94da8fd65b27cf301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tomato1.prefab using Guid(54fd9a4c732e5e94da8fd65b27cf301f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f450c1300d8852be3bb7eed2b93f0dd2') in 0.017261 seconds 
+  Import took 0.022195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl6.prefab
+  artifactKey: Guid(1904a53e1a45ff64781a85c6743cb94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/tower_lvl6.prefab using Guid(1904a53e1a45ff64781a85c6743cb94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a95946ef6c4d5b692f281d722dad6f1') in 0.016642 seconds 
+  Import took 0.022305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/models/stone_ring.prefab
+  artifactKey: Guid(81ee5a83a36d7424dbcee76f7015f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/models/stone_ring.prefab using Guid(81ee5a83a36d7424dbcee76f7015f4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642e6e76ef212ee0a47d89f9b7e66d34') in 0.018740 seconds 
+  Import took 0.024651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 129.312902 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/textures/farms.tga
+  artifactKey: Guid(39d49bf65bdc2d240b6298e0bd38703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/textures/farms.tga using Guid(39d49bf65bdc2d240b6298e0bd38703c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3deb5551185ce1e9e3f9658181bb3bdc') in 0.036928 seconds 
+  Import took 0.042945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/textures/towers.tga
+  artifactKey: Guid(afca6969a3148ab4a8816f95f2d9092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/textures/towers.tga using Guid(afca6969a3148ab4a8816f95f2d9092c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0455f3b7932b6dffa7add89b2d138a') in 0.012750 seconds 
+  Import took 0.017601 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000303 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl7.prefab
-  artifactKey: Guid(35de37196fbfb6d4f8d6d58d5880c67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/farm_lvl7.prefab using Guid(35de37196fbfb6d4f8d6d58d5880c67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9d0346679f36b5c8b0d1b8d987a293') in 0.010917 seconds 
-  Import took 0.014764 seconds .
+  path: Assets/Externals/simple_low_poly_village_buildings/textures/houses.tga
+  artifactKey: Guid(06421763ef165f748818fe3108a60c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/textures/houses.tga using Guid(06421763ef165f748818fe3108a60c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9440879baa95ffe28a627ae0c6f610e9') in 0.010825 seconds 
+  Import took 0.015073 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.344401 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/fence.prefab
-  artifactKey: Guid(956556a458e052645a695d553424942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/fence.prefab using Guid(956556a458e052645a695d553424942e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fafb64d21975e58020da7f8a243684') in 0.010256 seconds 
-  Import took 0.013549 seconds .
+  Time since last request: 0.503253 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/materials/farms.mat
+  artifactKey: Guid(94ad0811b82df0e44a78eadcefaf183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/materials/farms.mat using Guid(94ad0811b82df0e44a78eadcefaf183b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e560eba8b5734d5b25d0b2bf6b8190b') in 0.067473 seconds 
+  Import took 0.074397 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Externals/simple_low_poly_village_buildings/models/grass1.prefab
-  artifactKey: Guid(6114ef0be58cc8e4aab0b2adb459b092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Externals/simple_low_poly_village_buildings/models/grass1.prefab using Guid(6114ef0be58cc8e4aab0b2adb459b092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fadbe8cf175ae6128eda62dacd3e4c2f') in 0.012334 seconds 
-  Import took 0.015880 seconds .
+  Time since last request: 0.000449 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/materials/towers.mat
+  artifactKey: Guid(1ffd983d41367184a9b6cd4d2f45861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/materials/towers.mat using Guid(1ffd983d41367184a9b6cd4d2f45861d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18589fe3421228d7f299feaa99233a5f') in 0.022964 seconds 
+  Import took 0.029784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/materials/terrain.mat
+  artifactKey: Guid(1f395abdd881bac48b3fdb6ed13439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/materials/terrain.mat using Guid(1f395abdd881bac48b3fdb6ed13439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef389f2c79229c193d50e1bf7bfa427') in 0.030805 seconds 
+  Import took 0.038857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/materials/houses.mat
+  artifactKey: Guid(30d2c0caf0ebf2748b15e3aa63202a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/materials/houses.mat using Guid(30d2c0caf0ebf2748b15e3aa63202a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d8a4a94bbd8e3015a4b21e4bf478249') in 0.019152 seconds 
+  Import took 0.025193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003061 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/materials/terrain.mat
+  artifactKey: Guid(1f395abdd881bac48b3fdb6ed13439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/materials/terrain.mat using Guid(1f395abdd881bac48b3fdb6ed13439c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef389f2c79229c193d50e1bf7bfa427') in 0.011714 seconds 
+  Import took 0.017830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482266 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/barrel.FBX
+  artifactKey: Guid(6f3f657341527b54db0e9162793f38d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/barrel.FBX using Guid(6f3f657341527b54db0e9162793f38d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92df1ac41c67e921d0c75367713f8b6a') in 0.220070 seconds 
+  Import took 0.230628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/crate.FBX
+  artifactKey: Guid(598f592d5ee183c45acedfa472156b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/crate.FBX using Guid(598f592d5ee183c45acedfa472156b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63b9e10314426c64fe8a79df2c260f4') in 0.049234 seconds 
+  Import took 0.056925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/carrot1.FBX
+  artifactKey: Guid(1536a66daf31c6e4f8bebe317ea20547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/carrot1.FBX using Guid(1536a66daf31c6e4f8bebe317ea20547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcde34300d6d98f637122696e4b2639') in 0.025198 seconds 
+  Import took 0.029648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl3.FBX
+  artifactKey: Guid(0d3e2bc1dc33ec84497ae9241324b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl3.FBX using Guid(0d3e2bc1dc33ec84497ae9241324b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15f69658c2b81e68fd76adac18d7cca') in 0.022197 seconds 
+  Import took 0.025601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/bucket.FBX
+  artifactKey: Guid(9ba4236f42449b34f9b7da8571066ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/bucket.FBX using Guid(9ba4236f42449b34f9b7da8571066ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c82ac77b6e7bba25b3194d694bbe7') in 0.024706 seconds 
+  Import took 0.028983 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl4.FBX
+  artifactKey: Guid(e1089eea494164b48bfdd4b8f010c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl4.FBX using Guid(e1089eea494164b48bfdd4b8f010c8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05b327c8f617f2c6e5eaf7afb3dc837a') in 0.028582 seconds 
+  Import took 0.032043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/carrot2.FBX
+  artifactKey: Guid(154dfcdc0435cb2438e8be3c94fca365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/carrot2.FBX using Guid(154dfcdc0435cb2438e8be3c94fca365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000ac2f78feea737b394b3d5e158fe33') in 0.026398 seconds 
+  Import took 0.030072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl6.FBX
+  artifactKey: Guid(be84b5f204443574696ce59001b0d9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl6.FBX using Guid(be84b5f204443574696ce59001b0d9e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996a84726b5e8ce32cdddc0b8984bba5') in 0.023366 seconds 
+  Import took 0.028453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl2.FBX
+  artifactKey: Guid(30a345e5ee05a4c43af344fe72769488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl2.FBX using Guid(30a345e5ee05a4c43af344fe72769488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cfa731e38a984748b45b6553c58be1') in 0.021272 seconds 
+  Import took 0.025712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl5.FBX
+  artifactKey: Guid(7d0338f00ae6e9242964059b50a7a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl5.FBX using Guid(7d0338f00ae6e9242964059b50a7a393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a32d550674686572c1276b4e11a0ccf6') in 0.024996 seconds 
+  Import took 0.029263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl1.FBX
+  artifactKey: Guid(821168d52db26ce4ab5bc520b943f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl1.FBX using Guid(821168d52db26ce4ab5bc520b943f1d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01b7a2f11aaff1d71403164ee805405') in 0.022111 seconds 
+  Import took 0.027133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/barrel.FBX
+  artifactKey: Guid(6f3f657341527b54db0e9162793f38d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/barrel.FBX using Guid(6f3f657341527b54db0e9162793f38d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92df1ac41c67e921d0c75367713f8b6a') in 0.025167 seconds 
+  Import took 0.030101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.356220 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl7.FBX
+  artifactKey: Guid(a2f61de7c6dfe9245a0aff8ea10fdd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_house_lvl7.FBX using Guid(a2f61de7c6dfe9245a0aff8ea10fdd32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df72b8b95e6aad0d2f398bc9ddc09213') in 0.043822 seconds 
+  Import took 0.051322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl1.FBX
+  artifactKey: Guid(e8b7e6290d933f34f9071d67c3f1e7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl1.FBX using Guid(e8b7e6290d933f34f9071d67c3f1e7f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876ff90c7312e637cc860bc3ca9467f3') in 0.024031 seconds 
+  Import took 0.028550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl2.FBX
+  artifactKey: Guid(9454327dc1c4c0a4fb9d90fb45bf77d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl2.FBX using Guid(9454327dc1c4c0a4fb9d90fb45bf77d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced869f7a4a39231a11431119b945f24') in 0.025192 seconds 
+  Import took 0.031152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl3.FBX
+  artifactKey: Guid(90c57a36af5b3fa4aa5139d3611f2004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl3.FBX using Guid(90c57a36af5b3fa4aa5139d3611f2004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529e7de31c34b527e7ca018050a383f8') in 0.024762 seconds 
+  Import took 0.029899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl4.FBX
+  artifactKey: Guid(63c62f1eacfa5c248b748fd46b253c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl4.FBX using Guid(63c62f1eacfa5c248b748fd46b253c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d265eaaca87fb3349324d3245be6263') in 0.025110 seconds 
+  Import took 0.030194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl5.FBX
+  artifactKey: Guid(3046ffab76ef8a2459125ddd7502081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl5.FBX using Guid(3046ffab76ef8a2459125ddd7502081b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10c8db81b3f712f9db485884541d470') in 0.021974 seconds 
+  Import took 0.027546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000483 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl7.FBX
+  artifactKey: Guid(47714fade9030154ab0473afb784568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl7.FBX using Guid(47714fade9030154ab0473afb784568c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9d3c66c86b6352c0e97eeb70896283') in 0.019796 seconds 
+  Import took 0.024164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl6.FBX
+  artifactKey: Guid(dbaa07085d8352b40ba9e4382cfaad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/farm_lvl6.FBX using Guid(dbaa07085d8352b40ba9e4382cfaad2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051b5b7cfb5cfe0f039405adb82b454f') in 0.021989 seconds 
+  Import took 0.026286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.221883 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/fence.FBX
+  artifactKey: Guid(aa2de1ce7a0b097438df952beb51607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/fence.FBX using Guid(aa2de1ce7a0b097438df952beb51607e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c3c1db463c93ee2bafd4a91a315f3a') in 0.042979 seconds 
+  Import took 0.050707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/grass1.FBX
+  artifactKey: Guid(e6a1de342b8a6be48a601da214ca52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/grass1.FBX using Guid(e6a1de342b8a6be48a601da214ca52ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf4c1d1c229b7920b8e390800db7a32') in 0.033520 seconds 
+  Import took 0.040511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.136222 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/grass2.FBX
+  artifactKey: Guid(8cc84584c56b4d6419cf8c5f576c9620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/grass2.FBX using Guid(8cc84584c56b4d6419cf8c5f576c9620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c775e6cf5f392aafe5a46e92a30da22') in 0.042947 seconds 
+  Import took 0.053323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/hay1.FBX
+  artifactKey: Guid(d589351329383b1489ee574cca2d983f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/hay1.FBX using Guid(d589351329383b1489ee574cca2d983f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35c1a68afda459e85561724ad69894a') in 0.019931 seconds 
+  Import took 0.024529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.359360 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/hay2.FBX
+  artifactKey: Guid(5b1b38ca52776154cbff6e7b9ae9a64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/hay2.FBX using Guid(5b1b38ca52776154cbff6e7b9ae9a64c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df812bd50eb1257e6f8b58e2caa04884') in 0.039184 seconds 
+  Import took 0.047258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl1.FBX
+  artifactKey: Guid(ee8eb427bf60afa48aadc18c3e83dafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl1.FBX using Guid(ee8eb427bf60afa48aadc18c3e83dafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ca819881af739d66e52e5055f19012') in 0.034947 seconds 
+  Import took 0.042082 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021112 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl2.FBX
+  artifactKey: Guid(aa4bbc9f80f4e59468469077a836313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl2.FBX using Guid(aa4bbc9f80f4e59468469077a836313b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3b2798cd035ecc25758fdd2cb0febd') in 0.026228 seconds 
+  Import took 0.032664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl4.FBX
+  artifactKey: Guid(c1491311318644f4686d01746b0851bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl4.FBX using Guid(c1491311318644f4686d01746b0851bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2dab8cd9c56ac5ac9efcc97fb4e64b') in 0.039253 seconds 
+  Import took 0.045979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl3.FBX
+  artifactKey: Guid(ff0c5730e5fa3234caf0037697be949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl3.FBX using Guid(ff0c5730e5fa3234caf0037697be949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aff1c3ee6ab409da0021536d902dee7') in 0.037479 seconds 
+  Import took 0.045103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl5.FBX
+  artifactKey: Guid(7dbb85b420d23544682d44616881aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl5.FBX using Guid(7dbb85b420d23544682d44616881aed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd572248d891539b6bb84ac95d177d46') in 0.034619 seconds 
+  Import took 0.041425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521148 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl6.FBX
+  artifactKey: Guid(78f4b8e7c73a0104a8112763cb8f5aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl6.FBX using Guid(78f4b8e7c73a0104a8112763cb8f5aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2d4a4cb8f340902e10689280cc6656') in 0.049060 seconds 
+  Import took 0.058702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl7.FBX
+  artifactKey: Guid(f727ded922603934b962032566006696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/house_lvl7.FBX using Guid(f727ded922603934b962032566006696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a33352d7c936d78658e57dea4f29a47') in 0.037201 seconds 
+  Import took 0.044417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.063845 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/rock1.FBX
+  artifactKey: Guid(174a3c702f966a1438a96a9e71b25e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/rock1.FBX using Guid(174a3c702f966a1438a96a9e71b25e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe08bff1c7ddbfd4fbcb79cdf66c8235') in 0.041282 seconds 
+  Import took 0.050898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000515 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/rock2.FBX
+  artifactKey: Guid(caa6c0d1b312da443acdf66f41ebaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/rock2.FBX using Guid(caa6c0d1b312da443acdf66f41ebaa52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4197fa3536291248d5177f117ef0d223') in 0.042668 seconds 
+  Import took 0.052654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182897 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/shovel.FBX
+  artifactKey: Guid(3f09f11ffc3a9ca4682312977e1164c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/shovel.FBX using Guid(3f09f11ffc3a9ca4682312977e1164c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c870defb01a31aa1af93d96cf5fd26') in 0.049638 seconds 
+  Import took 0.059715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/stone_ring.FBX
+  artifactKey: Guid(da466003c6ed751429374771167afcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/stone_ring.FBX using Guid(da466003c6ed751429374771167afcbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bb4c450c9323ffc6b0e5dc6aab2144') in 0.024172 seconds 
+  Import took 0.030381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002146 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tomato1.FBX
+  artifactKey: Guid(410d25e713d63e049895326e9b5f662a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tomato1.FBX using Guid(410d25e713d63e049895326e9b5f662a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f463c74d1d13b3bce67e53ed898e3216') in 0.025805 seconds 
+  Import took 0.030965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tomato2.FBX
+  artifactKey: Guid(3451599ee565b7947aa0d423227e4828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tomato2.FBX using Guid(3451599ee565b7947aa0d423227e4828) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e564764800170b1d1cffe19b799b72d') in 0.024941 seconds 
+  Import took 0.029045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl2.FBX
+  artifactKey: Guid(262a6ed0126b60642bb6bc7ddddbf99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl2.FBX using Guid(262a6ed0126b60642bb6bc7ddddbf99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbd332e954aaadc4dbedb0df18f2ca3') in 0.028341 seconds 
+  Import took 0.033133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl1.FBX
+  artifactKey: Guid(d9cc2664702761e4e84869872ec27d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl1.FBX using Guid(d9cc2664702761e4e84869872ec27d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a6a394b0f2788cfddd397ccb32c98b') in 0.024797 seconds 
+  Import took 0.029575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.265827 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl3.FBX
+  artifactKey: Guid(71192924f83cc3d4f86d373e26071e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl3.FBX using Guid(71192924f83cc3d4f86d373e26071e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267f85e17bb907028ea72349d0d0f38f') in 0.048222 seconds 
+  Import took 0.056356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000479 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl6.FBX
+  artifactKey: Guid(b8765a5fac1298844ad6c75168ca605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl6.FBX using Guid(b8765a5fac1298844ad6c75168ca605e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0d51698328ad367d08e95e90ca0467') in 0.031903 seconds 
+  Import took 0.037291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl4.FBX
+  artifactKey: Guid(22d4103ebaff52b49960c9084488c39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl4.FBX using Guid(22d4103ebaff52b49960c9084488c39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b6e12df08d9412bf94f892ef350fd84') in 0.021806 seconds 
+  Import took 0.024976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl5.FBX
+  artifactKey: Guid(5a3e1d94da6fcf848932536d2a424cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl5.FBX using Guid(5a3e1d94da6fcf848932536d2a424cd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ca2132b72f9de2f509acf9c3c4de45') in 0.021782 seconds 
+  Import took 0.026543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl7.FBX
+  artifactKey: Guid(238f3d8957882a74a86241dac4a450ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Externals/simple_low_poly_village_buildings/fbx/tower_lvl7.FBX using Guid(238f3d8957882a74a86241dac4a450ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd41940431ad8a5aa6a523f46d4aceadb') in 0.020766 seconds 
+  Import took 0.025322 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007058 seconds.
+Registered in 0.012652 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.11 ms.
+Refreshing native plugins compatible for Editor in 1.52 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.15 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.910 seconds
+- Completed reload, in  2.060 seconds
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 12 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 2.44 ms, found 12 plugins.
+Preloading 2 native plugins for Editor in 0.39 ms.
 Unloading 2324 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.4 MB.
-System memory in use after: 105.6 MB.
+System memory in use before: 106.0 MB.
+System memory in use after: 106.2 MB.
 
-Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2840.
-Total: 2.541400 ms (FindLiveObjects: 0.392000 ms CreateObjectMapping: 0.116300 ms MarkObjects: 1.888500 ms  DeleteObjects: 0.143600 ms)
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 2878.
+Total: 3.517500 ms (FindLiveObjects: 0.227800 ms CreateObjectMapping: 0.090500 ms MarkObjects: 3.083500 ms  DeleteObjects: 0.115000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -292,4 +724,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
