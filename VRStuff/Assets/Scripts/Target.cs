@@ -11,7 +11,7 @@ public class Target : MonoBehaviour
     {
         if ((LayerMask)(collision.collider.gameObject.layer) == collisionLayer)
         {
-            Destroy(gameObject);
+            Destroy(transform.parent.gameObject);
         }
     }
 }
