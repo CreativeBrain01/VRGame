@@ -22,13 +22,16 @@ public class Spawner : MonoBehaviour
 
     void Update()
     {
-        if(transform.childCount < maxCount)
+        if(GameManager.State != GameManager.eState.on && GameManager.State != GameManager.eState.end)
         {
-            spawntimer += Time.deltaTime;
-            if (spawntimer >= spawnTime)
+            if(transform.childCount < maxCount)
             {
-                Instantiate(spawnObject, transform);
-                spawntimer = 0;
+                spawntimer += Time.deltaTime;
+                if (spawntimer >= spawnTime)
+                {
+                    Instantiate(spawnObject, transform);
+                    spawntimer = 0;
+                }
             }
         }
     }

@@ -14,6 +14,7 @@ public class SimpleShoot : MonoBehaviour
     [SerializeField] private Animator gunAnimator;
     [SerializeField] private Transform barrelLocation;
     [SerializeField] private Transform casingExitLocation;
+    [SerializeField] private AudioSource shootSFX;
 
     [Header("Settings")]
     [Tooltip("Specify time to destory the casing object")] [SerializeField] private float destroyTimer = 2f;
@@ -33,6 +34,7 @@ public class SimpleShoot : MonoBehaviour
     public void TriggerShoot()
     {
         gunAnimator.SetTrigger("Fire");
+        shootSFX.Play();
     }
 
 
