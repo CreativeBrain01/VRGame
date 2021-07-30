@@ -87,6 +87,7 @@ public class GameManager : MonoBehaviour
                 break;
             case eState.end:
                 midGameTheme.Pause();
+                state = eState.off;
                 break;
             default:
                 break;
